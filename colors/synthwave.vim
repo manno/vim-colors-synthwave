@@ -1,15 +1,15 @@
 " Vim color file - synthwave
 " Designed by Troy Fletcher TroyFletcher.net
-"                                                                                   
-"                               dP   dP                                             
-"                               88   88                                             
-"  .d8888b. dP    dP 88d888b. d8888P 88d888b. dP  dP  dP .d8888b. dP   .dP .d8888b. 
-"  Y8ooooo. 88    88 88'  `88   88   88'  `88 88  88  88 88'  `88 88   d8' 88ooood8 
-"        88 88.  .88 88    88   88   88    88 88.88b.88' 88.  .88 88 .88'  88.  ... 
-"  `88888P' `8888P88 dP    dP   dP   dP    dP 8888P Y8P  `88888P8 8888P'   `88888P' 
-"                .88                                                                
-"            d8888P                                                                 
-"                                                                                   
+"
+"                               dP   dP
+"                               88   88
+"  .d8888b. dP    dP 88d888b. d8888P 88d888b. dP  dP  dP .d8888b. dP   .dP .d8888b.
+"  Y8ooooo. 88    88 88'  `88   88   88'  `88 88  88  88 88'  `88 88   d8' 88ooood8
+"        88 88.  .88 88    88   88   88    88 88.88b.88' 88.  .88 88 .88'  88.  ...
+"  `88888P' `8888P88 dP    dP   dP   dP    dP 8888P Y8P  `88888P8 8888P'   `88888P'
+"                .88
+"            d8888P
+"
 " Test ALL THE SYNTAX!!!  so $VIMRUNTIME/syntax/hitest.vim
 set background=dark
 if version > 580
@@ -102,7 +102,7 @@ hi Constant guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NON
 hi Tag guifg=#c051d3 guibg=NONE guisp=NONE gui=NONE ctermfg=164 ctermbg=0 cterm=NONE
 hi String guifg=#dd00ff guibg=#000000 guisp=#000000 gui=NONE ctermfg=165 ctermbg=NONE cterm=NONE
 hi PMenuThumb guifg=#00858f guibg=#00f7ff guisp=#00f7ff gui=NONE ctermfg=30 ctermbg=51 cterm=NONE
-hi MatchParen guifg=#dd00ff guibg=#000000 guisp=#000000 gui=bold ctermfg=0 ctermbg=51 cterm=NONE
+hi MatchParen guibg=#dd00ff guisp=#000000 gui=bold ctermfg=51 cterm=NONE
 hi Repeat guifg=#ff00f7 guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
 hi SpellBad guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi Directory guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
